@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: rgb(23, 23, 23);
+  background: linear-gradient(
+    90deg,
+    rgba(23, 23, 23, 1) 0%,
+    rgba(28, 28, 28, 1) 25%,
+    rgba(32, 32, 32, 1) 50%,
+    rgba(28, 28, 28, 1) 75%,
+    rgba(23, 23, 23, 1) 100%
+  );
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  color-scheme: light dark;
+  color: #d6d6d6;
+  font-family: Verdana, Tahoma, sans-serif;
+  width: 100vw;
+}
