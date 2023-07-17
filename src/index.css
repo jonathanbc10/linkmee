@@ -27,3 +27,36 @@ body {
   font-family: Verdana, Tahoma, sans-serif;
   width: 100vw;
 }
+
+li:first-child {
+  animation: shaking .7s infinite;
+  animation-timing-function: ease-in-out;
+}
+
+li:first-child:hover {
+  animation-play-state: paused;
+}
+
+@keyframes shaking {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateY(-4px);
+  }
+  35% {
+    transform: translateY(-4px) rotate(1deg);
+  }
+  55% {
+    transform: translateY(-4px) rotate(-1deg);
+  }
+  65% {
+    transform: translateY(-4px) rotate(1deg);
+  }
+  75% {
+    transform: translateY(-4px) rotate(-1deg);
+  }
+  100% {
+    transform: translateY(0) rotate(0);
+  }
+}
