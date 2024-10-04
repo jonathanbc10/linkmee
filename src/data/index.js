@@ -16,7 +16,7 @@ export const profileInfo = {
 export const links = [
   {
     name: "Click for hire!",
-    link: "https://www.workana.com/freelancer/3e74b4e42429686a0719adce030303aa",
+    link: "https://www.workana.com/freelancer/68b82812b0ae771dbce3642c2a3ca678",
     icon: BriefCaseIcon,
   },
   {
